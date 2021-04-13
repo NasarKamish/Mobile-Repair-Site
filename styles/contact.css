@@ -6,4 +6,10 @@
 }
 
 .contact-details {
+  display: flex;
+}
+
+.contact-details > div {
+  display: flex;
+  align-items: center;
 }
