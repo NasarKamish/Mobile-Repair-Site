@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+#social {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding: 1% 10%;
+}
+
+#social div {
+  display: flex;
+}
+#social p {
+  margin-right: 20px;
+}
+
+.social-links {
+  justify-content: space-between;
+}
+
+.social-links i {
+  margin: 0 5px;
+}

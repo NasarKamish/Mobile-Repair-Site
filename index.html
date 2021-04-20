@@ -4,64 +4,176 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mobile Repar Store</title>
+    <title>Mobile Repair Store</title>
     <!-- External Scripts Here -->
     <script
-      src="https://kit.fontawesome.com/5354e3c12c.js"
+      src="https://kit.fontawesome.com/cce18f0ce0.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./styles/Social.css" />
+    <link rel="stylesheet" href="./styles/social.css" />
     <link rel="stylesheet" href="./styles/contact.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/landing.css" />
   </head>
   <body>
     <!-- Social Bar -->
     <div id="social">
       <div>
-        <p><i class="fas fa-home"></i>320 Fifth Avenue New York, NY 90210</p>
-        <p>
-          <i class="fas fa-envelope"></i>
-          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            >info@yourdomain.com</a
-          >
-        </p>
+        <p><i class="fas fa-home"></i> 320 Fifth Avenue New York, NY 90210</p>
+        <p><i class="far fa-envelope"></i> info@yourdomain.com</p>
       </div>
-      <div>
+      <div class="social-links">
         <i class="fab fa-facebook-f"></i> / <i class="fab fa-twitter"></i> /
         <i class="fab fa-linkedin-in"></i> / <i class="fab fa-instagram"></i> /
-        <i class="fab fa-vimeo-square"></i>
+        <i class="fab fa-vimeo"></i>
       </div>
     </div>
+
     <!-- Contact Bar -->
     <div id="contact">
-      <img src="./images/logo.png" alt="Mobile Repar Store" />
-      <div id="contact-details">
-        <div>
-          <i class="fas fa-phone"></i>
-          <div>
-            <p>Contact Us</p>
-            <p>(123) 456 7890</p>
+      <img src="./images/logo.png" alt="Mobile Repair Logo" />
+      <div class="contact-details">
+        <!-- Phone -->
+        <div class="contact-information">
+          <i class="contact-icon fas fa-phone-alt"></i>
+          <div class="contact-heading">
+            <p class="contact-heading-top">Contact Us</p>
+            <p class="contact-heading-bottom">(123) 456 7890</p>
           </div>
         </div>
-        <div>
-          <i class="fas fa-clock"></i>
-          <p>Working Time</p>
-          <p>Mon - Sat: 10:00-18:00</p>
+        <!-- Working Times -->
+        <div class="contact-information">
+          <i class="contact-icon far fa-clock"></i>
+          <div class="contact-heading">
+            <p class="contact-heading-top">Working Time</p>
+            <p class="contact-heading-bottom">Mon - Sat: 10:00-18:00</p>
+          </div>
         </div>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-          >Get a Free Quote</a
+        <!-- Button -->
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="button"
+          >Get a free quote</a
         >
       </div>
     </div>
-    <nav>Nav Bar</nav>
-    <section>Landing</section>
-    <section>Why</section>
-    <section>Services</section>
+
+    <!-- Navigation bar -->
+    <nav id="navbar">
+      <ul class="navbar-links">
+        <li class="navbar-link"><a href="#">Home</a></li>
+        <li class="navbar-link"><a href="#">About us</a></li>
+        <li class="navbar-link"><a href="#">Our Team</a></li>
+        <li class="navbar-link"><a href="#">Pages</a></li>
+        <li class="navbar-link"><a href="#">Our Services</a></li>
+        <li class="navbar-link"><a href="#">Blog</a></li>
+        <li class="navbar-link"><a href="#">Shop</a></li>
+        <li class="navbar-link"><a href="#">Contact Us</a></li>
+      </ul>
+      <button class="mobile-menu"><i class="fas fa-bars"></i></button>
+      <i class="fas fa-search search-icon"></i>
+    </nav>
+
+    <!-- Landing -->
+    <section>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade slide1">
+          <div class="text">
+            <h4>Award Winning Service</h4>
+            <h2>Mobile Phone <span>Service</span></h2>
+            <p>
+              we repair phones. Repairs from cracked screens, battery problems,
+              speakers and lots more
+            </p>
+            <a class="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              >GET A FREE QUOTE</a
+            >
+          </div>
+        </div>
+
+        <div class="mySlides fade slide2">
+          <div class="text">
+            <h4>Award Winning Service</h4>
+            <h2>Mobile Phone <span>Service</span></h2>
+            <p>
+              we repair phones. Repairs from cracked screens, battery problems,
+              speakers and lots more
+            </p>
+            <a class="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              >GET A FREE QUOTE</a
+            >
+          </div>
+        </div>
+
+        <div class="mySlides fade slide3">
+          <div class="text">
+            <h4>Award Winning Service</h4>
+            <h2>Mobile Phone <span>Service</span></h2>
+            <p>
+              we repair phones. Repairs from cracked screens, battery problems,
+              speakers and lots more
+            </p>
+            <a class="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              >GET A FREE QUOTE</a
+            >
+          </div>
+        </div>
+
+        <div class="mySlides fade slide4">
+          <div class="text">
+            <h4>Award Winning Music</h4>
+            <h2>Rick Astley <span>Number 1</span></h2>
+            <p>
+              We're no strangers to love You know the rules and so do I A full
+              commitment's what I'm thinking of You wouldn't get this from any
+              other guy I just wanna tell you how I'm feeling Gotta make you
+              understand
+            </p>
+            <a class="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              >Cheak out my youtube Chanel</a
+            >
+          </div>
+        </div>
+
+        <div class="mySlides fade slide5">
+          <div class="text">
+            <h4>Award Winning Music</h4>
+            <h2>MRick Astley <span>Number 1</span></h2>
+            <p>
+              Never gonna give you up Never gonna let you down Never gonna run
+              around and desert you Never gonna make you cry Never gonna say
+              goodbye Never gonna tell a lie and hurt you
+            </p>
+            <a class="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              >Cheak out my youtube Chanel</a
+            >
+          </div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span span class="dot" onclick="currentSlide(2)"></span>
+        <span span class="dot" onclick="currentSlide(3)"></span>
+        <span span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+    </section>
+    <section>Why Section</section>
+    <section>Services Section</section>
     <section>Counter</section>
-    <section>Discription</section>
-    <section>Testamonial</section>
+    <section>Description</section>
+    <section>Testimonials</section>
     <section>Blogs</section>
     <section>Quotes</section>
     <section>Branding</section>
     <footer>Footer</footer>
+    <script src="./scripts/slideshow.js"></script>
   </body>
 </html>
